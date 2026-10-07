@@ -12,7 +12,7 @@ class StudentProfile:
 
 
 name = "Behruz"
-age = 28
+age = 21
 grade = 1
 auid = "ABT26AIM001"
 
@@ -32,7 +32,7 @@ class StudentProfile:
         return f"Ism: {self.name}, Yoshi: {self.age}, Bosqich: {self.grade}, AUID: {self.auid}"
 
 
-person1 = StudentProfile("Ahrorjon", 22, 3, "ABT24CCS008")
+person1 = StudentProfile("john", 25, 3, "ABT24CCS111")
 print(person1)
 
 
@@ -48,7 +48,7 @@ class Teacher:
         return f"O'qituvchi: {self.name}, Fan: {self.subject}, Tajriba: {self.experience} yil, Maosh: {self.salary}"
 
 
-teacher1 = Teacher("Behruz", "Python", 3, 5000000)
+teacher1 = Teacher("Bexa", "Python", 3, 5000000)
 print(teacher1)
 
 
